@@ -1,3 +1,51 @@
-.box {
+@import url(''); /*зависимость, файл css*/
+* {
+	box-sizing: border-box;
+}
+
+.one-block {
+	background-color:;
+	width: 100%;
+	height: 142px;
+	border: 2px solid black;
+}
+.block-1 {
+	border: 2px solid black;
+	width: 700px;
+	margin-left: 100px;
+}
+.logo, .block-1 {
+	border: 2px solid black;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+
+
+.o-nas {
+	margin-left: 50px;
+	border: 2px solid #000;
+	display: inline-block;
+	height: px;
+	width: 100px;
+	font-size: 20px;
+	padding-top: px;
+
 	
-} 
+}
+.assortiment {
+	border: 2px solid #000;
+	display: inline-block;
+	height: px;
+	width: 150px;
+	font-size: 20px;
+	padding: px;
+}
+.inform {
+	border: 2px solid #000;
+	display: inline-block;
+	height: px;
+	width: 150px;
+	font-size: 20px;
+	
+}
